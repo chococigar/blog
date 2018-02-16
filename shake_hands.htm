@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    <!-- <script src="sketch.js"></script> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <style>
+      /*body {padding: 0; margin: 0;}*/
+      body{text-align: center;background: #f2f6f8;}
+
+      #container{
+          display:inline-block;
+          width:320px;
+          height:260px;
+          margin: 0 auto;
+          background: black;
+          position:relative;
+          border:5px solid black;
+          border-radius: 10px;
+          box-shadow: 0 5px 50px #333}
+
+      #gameCanvas{
+          position:relative;
+          z-index:20;
+      }
+
+
+      </style>
+  </head>
+    <body style="overflow:hidden">
+      <!-- <div id= "container">
+        <canvas id="gameCanvas" width="450" height="400"></canvas> -->
+      <div>
+
+      </div>
+      <div id="layer2" width="400" height="400" style="position:absolute;left:0%;top:10%;z-index:1;">
+        <div>
+          <img id = "shake" src="shake_hands-01.png" style="width:100%;left:0;margin-bottom:50%;z-index:1;user-select:none">
+        </div>
+      </div>
+  </body>
+</html>
